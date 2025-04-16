@@ -17,8 +17,10 @@ fluent-templates = { version = ">=0.13", default-features = false, features = [
   "macros",
   "walkdir",
 ] }
-leptos = "0.8.0-alpha"
-leptos_meta = "0.8.0-alpha"
+
+leptos = { git = "https://github.com/leptos-rs/leptos", branch = "proc-macro-span-changes", features = ["nightly"] }
+leptos_meta ={ git = "https://github.com/leptos-rs/leptos", branch = "proc-macro-span-changes"}
+
 web-sys = { version = ">=0.1", features = [
   "HtmlDocument",
   "Navigator",

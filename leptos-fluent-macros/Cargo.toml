@@ -43,7 +43,7 @@ proc-macro-warning = "1"
 
 [dev-dependencies]
 trybuild = "1"
-leptos = { git = "https://github.com/leptos-rs/leptos", branch = "4300", features = ["nightly"] }
+leptos = { git = "https://github.com/leptos-rs/leptos", features = ["nightly"] }
 leptos-fluent.workspace = true
 
 [features]

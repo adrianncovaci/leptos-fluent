@@ -17,7 +17,7 @@ web-sys = { version = "0.3", features = [
 ] }
 wasm-bindgen.workspace = true
 wasm-bindgen-test.workspace = true
-leptos = { git = "https://github.com/leptos-rs/leptos", branch = "4300", features = ["nightly"] }
+leptos = { git = "https://github.com/leptos-rs/leptos", features = ["nightly"] }
 gloo-utils.workspace = true
 web-sys-ec.workspace = true
 

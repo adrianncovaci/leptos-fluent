@@ -11,10 +11,10 @@ crate-type = ["cdylib", "rlib"]
 actix-files = { version = "0.6", optional = true }
 actix-web = { version = "4", optional = true, default-features = false }
 console_error_panic_hook = "0.1"
-leptos = { git = "https://github.com/leptos-rs/leptos", branch = "4300", features = ["nightly"] }
-leptos_meta = { git = "https://github.com/leptos-rs/leptos", branch = "4300" }
-leptos_actix = { git = "https://github.com/leptos-rs/leptos", branch = "4300", optional = true }
-leptos_router = { git = "https://github.com/leptos-rs/leptos", branch = "4300" }
+leptos = { git = "https://github.com/leptos-rs/leptos", features = ["nightly"] }
+leptos_meta = { git = "https://github.com/leptos-rs/leptos" }
+leptos_actix = { git = "https://github.com/leptos-rs/leptos", optional = true }
+leptos_router = { git = "https://github.com/leptos-rs/leptos" }
 leptos-fluent.workspace = true
 wasm-bindgen.workspace = true
 

@@ -5,7 +5,7 @@ version = "0.1.0"
 publish = false
 
 [dependencies]
-leptos = "0.8"
+leptos = { git = "https://github.com/leptos-rs/leptos", branch = "4300", features = ["nightly"] }
 web-sys = { version = "0.3", features = [
   "HtmlInputElement",
   "Storage"

@@ -11,10 +11,10 @@ crate-type = ["cdylib", "rlib"]
 axum = { version = "0.8", optional = true }
 console_error_panic_hook = "0.1"
 tokio = { version = "1", features = ["rt-multi-thread"], optional = true }
-leptos = "0.8"
-leptos_meta = "0.8"
-leptos_axum = { version = "0.8", optional = true }
-leptos_router = "0.8"
+leptos = { git = "https://github.com/leptos-rs/leptos", branch = "4300", features = ["nightly"] }
+leptos_meta = { git = "https://github.com/leptos-rs/leptos", branch = "4300" }
+leptos_axum = { git = "https://github.com/leptos-rs/leptos", branch = "4300", optional = true }
+leptos_router = { git = "https://github.com/leptos-rs/leptos", branch = "4300" }
 leptos-fluent = { workspace = true, features = [
   "yaml",
   "debug",
